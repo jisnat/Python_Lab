@@ -1,0 +1,5 @@
+f1=open("test.txt","w")
+f1.write("my name is jisna\n")
+f1.write("i love nature\n")
+f1.close()
+print("file",f1.name,"closed")
